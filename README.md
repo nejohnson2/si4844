@@ -7,7 +7,7 @@ This is an FM radio using the digital reciever module ```Si4844```.
 This is the [programming guide](http://www.silabs.com/Support%20Documents/TechnicalDocs/AN610.pdf).  Right now the code pauses during power up mode.
 
 - [x] power circuit test
-- [ ] I2C Comms
+- [ ] I2C Comms - do they need pull-ups?
 - [ ] Si4844 power up
 - [ ] antenna functioning
 - [ ] fm demodulation
