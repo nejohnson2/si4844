@@ -15,9 +15,15 @@ This is an FM radio using the digital reciever module ```Si4844```.
 - [x] Basic functionality
 
 To do:
+- [ ] Add Band switch
+- [ ] Add display
+- [ ] On/Off switch
+- [ ] Audio out (?)
+- [ ] Move to protoboard
 - [ ] Enhanced audio amplifier
-- [ ] Enhanced antenna
-- [ ] Enclosure
+- [ ] Enhanced AM/FM antenna
+- [ ] Buy knobs/dials
+- [ ] [Enclosure](https://s-media-cache-ak0.pinimg.com/originals/ba/01/3a/ba013af739433c9e4d94a3727d0fa14c.jpg)
 
 
 ## Build Notes
@@ -31,3 +37,11 @@ To do:
 **Audio** - I have a basic mono audio amplifyer circuit.  I will post the link when I find it again.
 
 **Antenna** - The setup works without any 'official' antenna.  I basically have a 6 inch wire twisted once which is providing quality reception.
+
+## Final Design
+
+- [ ] On/Off toggle
+- [ ] Excellent stereo audio quality
+- [ ] Volume knob
+- [ ] FM Tuning Knob
+- [ ] External antenna option
