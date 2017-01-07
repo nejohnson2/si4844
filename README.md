@@ -45,3 +45,5 @@ To do:
 - [ ] Volume knob
 - [ ] FM Tuning Knob
 - [ ] External antenna option
+
+<img src="http://previews.123rf.com/images/scottff72/scottff721208/scottff72120800010/14877766-Retro-vintage-wood-radio-on-a-white-background-Stock-Photo-radio-old-antique.jpg" width=350/>
