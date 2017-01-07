@@ -45,3 +45,11 @@ To do:
 - [ ] Volume knob
 - [ ] FM Tuning Knob
 - [ ] External antenna option
+
+## Misc Parts
+
+Radio dial inspiration comes from a [1934-36 Zenith 5-S-29](https://s-media-cache-ak0.pinimg.com/564x/3f/08/86/3f08869ec74c9f22957f4a435a4101e7.jpg)
+
+- [ ] Escutcheone
+- [ ] Radio Face (preferably on that lights up)
+- [ ] Knobs
