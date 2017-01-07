@@ -1,6 +1,6 @@
 # SI4844 FM Radio
 
-This is an FM radio using the digital reciever module ```Si4844```.
+This is an FM radio using the digital reciever module ```Si4844```. <img src="http://previews.123rf.com/images/scottff72/scottff721208/scottff72120800010/14877766-Retro-vintage-wood-radio-on-a-white-background-Stock-Photo-radio-old-antique.jpg" width=350 align="right" />
 
 - [All About Circuits](http://www.allaboutcircuits.com/projects/build-an-arduino-controlled-am-fm-sw-radio/) - this is the original blog post about setting up radio
 - [Design Guide](http://www.silabs.com/Support%20Documents/TechnicalDocs/AN602.pdf)
@@ -45,5 +45,3 @@ To do:
 - [ ] Volume knob
 - [ ] FM Tuning Knob
 - [ ] External antenna option
-
-<img src="http://previews.123rf.com/images/scottff72/scottff721208/scottff72120800010/14877766-Retro-vintage-wood-radio-on-a-white-background-Stock-Photo-radio-old-antique.jpg" width=350/>
