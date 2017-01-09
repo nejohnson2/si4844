@@ -38,6 +38,11 @@ To do:
 
 **Antenna** - The setup works without any 'official' antenna.  I basically have a 6 inch wire twisted once which is providing quality reception.
 
+## Parts
+
+- [ ] [Si4844-B20](http://www.digikey.com/product-detail/en/silicon-labs/SI4844-B20-GU/SI4844-B20-GU-ND/4069445) - Receiver
+- [ ] [TPA3123](http://www.digikey.com/product-detail/en/texas-instruments/TPA3123D2PWPR/296-22008-1-ND/1649103) - Class D Audio Amp
+
 ## Final Design
 
 - [ ] On/Off toggle
