@@ -53,3 +53,7 @@ Radio dial inspiration comes from a [1934-36 Zenith 5-S-29](https://s-media-cach
 - [ ] Escutcheone
 - [ ] Radio Face (preferably on that lights up)
 - [ ] Knobs
+
+### Useful Links
+
+- [Dial Cord String Guide](http://www.theoldradiofixerupperguy.com/dial%20cord.html)
