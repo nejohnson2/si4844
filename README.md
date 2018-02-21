@@ -36,7 +36,7 @@ To do:
 
 **Audio** - I'm using a basic audio amplifyer circut using the LM386.  The schematics is:
 
-<img src="docs/LM386-BassBoost.png" width=350 />
+<img src="docs/LM386-BassBoost.png" />
 
 **Antenna** - The setup works without any 'official' antenna.  I basically have a 6 inch wire twisted once which is providing quality reception.
 
