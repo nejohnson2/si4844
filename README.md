@@ -34,7 +34,9 @@ To do:
 
 **Communication** - the ```Si4844``` is an I2C slave device with an address ```0x11```.  The ```Si4844``` maximum speed is 50kHz and during some parts of the startup phase, the speed must not exceed 10kHz.  With Arduino, you can use the ```Wire``` library and change the I2C speed with ```Wire.setClock(10000)``` which sets the I2C clock speed to 10k.  I used 2.2k pullup resistors for both the SDA and SCK lines.
 
-**Audio** - I have a basic mono audio amplifyer circuit.  I will post the link when I find it again.
+**Audio** - I'm using a basic audio amplifyer circut using the LM386.  The schematics is:
+
+<img src="docs/LM386-BassBoost.png" width=350 />
 
 **Antenna** - The setup works without any 'official' antenna.  I basically have a 6 inch wire twisted once which is providing quality reception.
 
