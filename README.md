@@ -28,21 +28,26 @@ To do:
 
 ## Build Notes
 
-**Microcontroller** - <img src="docs/Atmega328-pinout.png" align="right" width="334"> ~~The original blog post uses an Arduino 3.3v Pro Mini.  I dont have one of these so instead I'm using a Teensy 3.2.  The main reason I'm going with the Teensy is that it's also a 3.3v board.  I've also thought about using a ```3.3v Trinket Pro``` but I dont have my 3.3v-5v serial adapter.  The ```Teensy 3.2``` has built in serial converter.~~ 
+## Microcontroller 
+<img src="docs/Atmega328-pinout.png" align="right" width="334"> ~~The original blog post uses an Arduino 3.3v Pro Mini.  I dont have one of these so instead I'm using a Teensy 3.2.  The main reason I'm going with the Teensy is that it's also a 3.3v board.  I've also thought about using a ```3.3v Trinket Pro``` but I dont have my 3.3v-5v serial adapter.  The ```Teensy 3.2``` has built in serial converter.~~ 
 
 I've decided to get really complicated and use an **ATMEGA328P** chip.  [This page](https://www.arduino.cc/en/Main/Standalone) describes the process of setting up a standalone ATMEGA328P.
 
-**Power** - it is suggested to power the whole board from a 3.3v regulator and not the microcontroller as the microcontroller will not supply enough amps.
+## Power
+It is suggested to power the whole board from a 3.3v regulator and not the microcontroller as the microcontroller will not supply enough amps.
 
-**Communication** - the ```Si4844``` is an I2C slave device with an address ```0x11```.  The ```Si4844``` maximum speed is 50kHz and during some parts of the startup phase, the speed must not exceed 10kHz.  With Arduino, you can use the ```Wire``` library and change the I2C speed with ```Wire.setClock(10000)``` which sets the I2C clock speed to 10k.  I used 2.2k pullup resistors for both the SDA and SCK lines.
+## Communication
+The ```Si4844``` is an I2C slave device with an address ```0x11```.  The ```Si4844``` maximum speed is 50kHz and during some parts of the startup phase, the speed must not exceed 10kHz.  With Arduino, you can use the ```Wire``` library and change the I2C speed with ```Wire.setClock(10000)``` which sets the I2C clock speed to 10k.  I used 2.2k pullup resistors for both the SDA and SCK lines.
 
-**Audio** - I'm using a basic audio amplifyer circut using the LM386.  The schematic from the datasheet is:
+## Audio
+I'm using a basic audio amplifyer circut using the LM386.  The schematic from the datasheet is:
 
 <img src="docs/LM386-BassBoost.png" />
 
 I also used [this website](http://www.circuitbasics.com/build-a-great-sounding-audio-amplifier-with-bass-boost-from-the-lm386/) to enhance the circuit.
 
-**Antenna** - The setup works without any 'official' antenna.  I basically have a 6 inch wire twisted once which is providing quality reception.
+## Antenna
+The setup works without any 'official' antenna.  I basically have a 6 inch wire twisted once which is providing quality reception.
 
 ## Parts
 
